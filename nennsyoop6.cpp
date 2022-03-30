@@ -61,7 +61,55 @@ int main()
 
 
 
-    
+    int a, b;
+    string s, choice;
 
+    choice = "Yes";
+    while (choice == "Yes" or choice == "YES" or choice == "yes") {
+        cout << "a, s, b: " << endl;
+        cin >> a >> s >> b;
+        Calculator(a, b, s);
+        cout << "Do you want to continue working?" << endl;
+        string print;
+        cout << "print: " << endl;
+        cin >> print;
+        choice = print;
+    }
+
+    double a1, b1;
+    string s1, choice1;
+
+    choice1 = "yes";
+    while (choice1 == "Yes" or choice1 == "YES" or choice1 == "yes") {
+        cout << "a1, s1, b1: " << endl;
+        cin >> a1 >> s1 >> b1;
+        Calculator(a1, b1, s1);
+        cout << "Do you want to continue working?" << endl;
+        string print1;
+        cout << "print1: " << endl;
+        cin >> print1;
+        choice1 = print1;
+    }
+
+
+    float a2, b2;
+    string s2, choice2;
+
+    choice2 = "yes";
+    while (choice2 == "Yes" or choice2 == "YES" or choice2 == "yes") {
+        cout << "a2, s2, b2: " << endl;
+        cin >> a2 >> s2 >> b2;
+        Calculator(a2, b2, s2);
+        cout << "Do you want to continue working?" << endl;
+        string print2;
+        cout << "print2: " << endl;
+        cin >> print2;
+        choice2 = print2;
+    }
+
+
+
+    
+    return 0;
 
 }

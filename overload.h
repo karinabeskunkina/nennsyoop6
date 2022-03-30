@@ -14,4 +14,7 @@ void InsertSort(float*, int);
 void print(int*, int);
 void print(double*, int);
 void print(float*, int);
+void Calculator(int, int, string);
+void Calculator(double, double, string);
+void Calculator(float, float, string);
 #endif

@@ -108,3 +108,61 @@ void print(float* arr, int n) {
     }
     cout << endl;
 }
+
+void Calculator(int a, int b, string s) {
+    if (s == "+") {
+        cout << a << " + " << b << " = " << a + b << endl;
+    }
+    if (s == "-") {
+        cout << a << " - " << b << " = " << a - b << endl;
+    }
+    if (s == "*") {
+        cout << a << " * " << b << " = " << a * b << endl;
+    }
+    if (s == "/" and b != 0) {
+        cout << a << " + " << b << " = " << a + b << endl;
+    }
+    else if (b == 0) {
+        cout << "Error b = 0" << endl;
+    }
+
+}
+
+
+void Calculator(double a, double b, string s) {
+    if (s == "+") {
+        cout << a << " + " << b << " = " << a + b << endl;
+    }
+    if (s == "-") {
+        cout << a << " - " << b << " = " << a - b << endl;
+    }
+    if (s == "*") {
+        cout << a << " * " << b << " = " << a * b << endl;
+    }
+    if (s == "/" and b != 0) {
+        cout << a << " / " << b << " = " << a / b << endl;
+    }
+    else if (b == 0) {
+        cout << "Error b = 0" << endl;
+    }
+
+}
+
+void Calculator(float a, float b, string s) {
+    if (s == "+") {
+        cout << a << " + " << b << " = " << a + b << endl;
+    }
+    if (s == "-") {
+        cout << a << " - " << b << " = " << a - b << endl;
+    }
+    if (s == "*") {
+        cout << a << " * " << b << " = " << a * b << endl;
+    }
+    if (s == "/" and b != 0) {
+        cout << a << " / " << b << " = " << a / b << endl;
+    }
+    else if (b == 0) {
+        cout << "Error b = 0" << endl;
+    }
+
+}
